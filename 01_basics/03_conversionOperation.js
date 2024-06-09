@@ -28,5 +28,25 @@ let someNumber = 22
 let stringNumber = String(someNumber)
 console.log(typeof(stringNumber));
 
+//++++++++++++++++++++++++++  OPERATIONS  ++++++++++++++++++++++++++
+
+console.log("2 raised to 3 is " + 2**3);
+//else other arithmetic operations are same
+
+let str1 = "Piyusha"
+let str2 = "Patil"
+let str3 = str1 +" "+ str2
+
+console.log("String concatination is " + str3)
+console.log(1+"2");
+console.log("1"+2);
+console.log("1"+2+2);
+console.log(1+2+"2"); 
+//Not good approach to write things like this, Use parathesis instead while dealing with such operations
+console.log(+true);
+console.log(-true);
+//+ and - are unary operators
+
+console.log(+"");
 
 
